@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block main %}
+    <p>{{ user.name }}'s Recipes</p>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Tags#</th>
+            <th>Action</th>
+        </tr>
+        {% for recipe in user.recipes %}
+            {% if loop.index % 2 == 0 %}
+                <tr class="even_row">
+            {% else %}
+                <tr class="odd_row">
+            {% endif %}
+                    <td>{{ recipe.number }}</td>
+                    <td>{{ recipe.title }}</td>
+                    <td>{{ recipe.type }}</td>
+                    <td>{{ recipe.tags }}</td>
+                    <td><button type="button" class="button" onclick=confirmed_action("{{ url_for('recipes_delete', number=recipe.number) }}")>Delete</button></td>
+                </tr>
+        {% endfor %}
+    </table>
+    <p />
+    <button type="button" class="button" onclick=simple_action("{{ url_for('signout') }}")>Sign Out</button>&nbsp;&nbsp;<button type="button" class="button" onclick=simple_action("{{ url_for('recipes_create') }}")>New Recipe</button>
+    <script type="text/javascript">
+        function simple_action(target) {
+            window.location = target
+        }
+
+        function confirmed_action(target) {
+                if (confirm('Are you sure?')) {
+                    window.location = target
+                }
+            }
+    </script>
+{% endblock %}
