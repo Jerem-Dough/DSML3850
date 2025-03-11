@@ -4,7 +4,7 @@ In this activity you are asked to create an EC2 instance and to run a simple web
 
 # Instructions 
 
-Different than Activity 08 discussed in class, this time you will not break down the terraform code into modules, so you can compare both design choices. Make any necessary modifications to variables in [infrastructure/variables.tf](infrastructure/variables.tf). Finish the TO-DO in [infrastructure/main.tf](infrastructure/main.tf). 
+Different than Activity 08 discussed in class, this time you will not break down the terraform code into modules, so you can compare both design choices. Make any necessary modifications to variables in [infrastructure/variables.tf](infrastructure/variables.tf). Create and run [infrastructure/main.tf](infrastructure/main.tf). 
 
 [infrastructure/setup.sh](infrastructure/setup.sh) is a "user data" script that automatically creates a simple "hello world" flask app and configures the web app to run as a service. 
 
