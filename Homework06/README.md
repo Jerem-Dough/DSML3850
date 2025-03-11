@@ -9,7 +9,7 @@ The goal of this assignment is to have you practice a file-system storage virtua
 
 ![pics/pic1.png](pics/pic1.png)
 
-Finish the TO-DOs in [infrastructure/main.tf](infrastructure/main.tf), after reviewing the parameters in [infrastructure/variables.tf](infrastructure/variables.tf). 
+Create and run [infrastructure/main.tf](infrastructure/main.tf), after reviewing the parameters in [infrastructure/variables.tf](infrastructure/variables.tf). 
 
 When creating the EC2 instances, use the user data script [infrastructure/setup.sh](infrastructure/setup.sh). 
 
