@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/KdyPOPX5)
 # Overview
 
 In this assignment, you are required to create an EC2 instance and attach an external hard drive to it using the AWS Elastic Block Store (EBS) service. The EC2 instance must be accessible via SSH, and the external hard drive should be automatically mounted when the instance starts.
@@ -9,7 +8,7 @@ The picture below describes the architecture that you are expected to create usi
 
 ![pics/pic1.png](pics/pic1.png)
 
-Different than Activity 08 discussed in class, this time you will not break the terraform code into modules, so you can compare both design choices. Make any necessary modifications to variables in [infrastructure/variables.tf](infrastructure/variables.tf). Finish the TO-DOs in [infrastructure/main.tf](infrastructure/main.tf). 
+Different than Activity 08 discussed in class, this time you will not break the terraform code into modules, so you can compare both design choices. Make any necessary modifications to variables in [infrastructure/variables.tf](infrastructure/variables.tf). Create and run [infrastructure/main.tf](infrastructure/main.tf). 
 
 [infrastructure/setup.sh](infrastructure/setup.sh) is a "user data" script that automatically mounts the EBS volume to the instance upon initialization
 
