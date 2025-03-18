@@ -15,10 +15,10 @@ Implemented an automated deployment script for provisioning an AWS EC2 instance 
 - **Provisioning and Mounting EFS Volumes on AWS (Homework06):**  
 Implemented an automated Terraform configuration to provision an AWS Elastic File System (EFS) and mount it to multiple EC2 instances. The project explores file-system storage virtualization and demonstrates how to configure persistent, scalable cloud storage.
 
-- **Web Application Deployment on AWS (Activity13):**  
+- **Group Web Application Deployment on AWS (Activity13):**  
 Designed and deployed a 3-tier AWS cloud architecture with class, integrating a PostgreSQL database, Flask web application, and Docker containerization. The project focuses on infrastructure automation, containerized deployment, and cloud security best practices.
 
-- **Web Application Deployment on AWS (Project1):**  
+- **Solo Web Application Deployment on AWS (Project1):**  
 Deployed a Flask web app in Docker containers using AWS ECS, Terraform, and S3 for secure file storage. Built and pushed Docker images to ECR, automating infrastructure provisioning and deployment. Built all infrastructure and config files from the ground up.
 
 - **More Projects to Come:**
