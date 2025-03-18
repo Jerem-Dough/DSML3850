@@ -19,7 +19,7 @@ Implemented an automated Terraform configuration to provision an AWS Elastic Fil
 Designed and deployed a 3-tier AWS cloud architecture with class, integrating a PostgreSQL database, Flask web application, and Docker containerization. The project focuses on infrastructure automation, containerized deployment, and cloud security best practices.
 
 - **Solo Web Application Deployment on AWS (Project1):**  
-Deployed a Flask web app in Docker containers using AWS ECS, Terraform, and S3 for secure file storage. Built and pushed Docker images to ECR, automating infrastructure provisioning and deployment. Built all infrastructure and config files from the ground up.
+Deployed a Flask web app in Docker containers using AWS ECS, Terraform, and S3 for secure file storage. Built and pushed Docker images to ECR, automating infrastructure provisioning, load balancing, and deployment. Built all infrastructure and config files from the ground up.
 
 - **More Projects to Come:**
 Last update - 3/18/2025
