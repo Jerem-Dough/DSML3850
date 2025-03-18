@@ -64,22 +64,3 @@ To get full credit in this assignment you need to push all of the files that you
 ```
 Public IP: ...
 ```
-
-# Grading
-
-```
-+0 Part 1: the code was given to you, so no points
-+15 Part 2: the app is able to upload and delete files by successfully communicating with the bucket through Boto3
-+5 Part 3: you remembered to update the application S3 access configuration to use the ECS policy instead
-+10 Part 4: Dockerfile
-+60 Part 5
-    +5 variables.tf updated 
-    +10 task execution role and policy 
-    +10 task role and policy
-    +10 security group
-    +10 task definition 
-    +5 ECS cluster
-    +10 service
-+5 public IP was given
-+5 application works as expected
-```
