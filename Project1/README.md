@@ -7,11 +7,11 @@ The goal of this project is to deploy a web app written in Python Flask using Do
 
 ## Part 1: S3 Bucket Creation and Access Configuration
 
-In Part 1, you will create an S3 bucket and a resource policy that grants full access to it. You will also create a user with access keys and attach the policy to this user. Before you run the terraform for Part 1, make the appropriate changes in [variables.tf](part1/variables.tf).
+In Part 1, you will create an S3 bucket and a resource policy that grants full access to it. You will also create a user with access keys and attach the policy to this user. 
 
 ## Part 2: Web App Development
 
-In Part 2, you will make the necessary changes to your Python Flask web app and test it locally to verify that it fulfills all requirements. The app is located in [src](src). Begin by configuring a virtual environment and installing all dependencies using the following command:
+In Part 2, you will make the necessary changes to your Python Flask web app and test it locally to verify that it fulfills all requirements. Begin by configuring a virtual environment and installing all dependencies using the following command:
 
 ```
 pip3 install -r requirements.txt
@@ -20,8 +20,6 @@ pip3 install -r requirements.txt
 One of the packages installed for this project is ```boto3```, which is a Python AWS SDK that will be used for the web app to communicate with the S3 bucket created in Part 1. 
 
 As it stands, the app allows users to sign up, log in, and list/upload/process/delete files. However, the uploading and deletion of files are incomplete, as the communication with the S3 bucket has not been implemented. Your task is to complete the integration of the app with the S3 bucket.
-
-Make sure you update the name of you bucket in [src/app/__init__.py](src/app/__init__.py) (variable ```S3_BUCKET```). 
 
 When the app runs, it should display the initial screen: 
 
@@ -46,8 +44,6 @@ docker build --platform linux/amd64 -t prj01:v1 .
 In part 4, you are asked to upload the Docker image created in Part 3 into AWS ECR (Elastic Container Registry). Use the steps described in Activity 11 (Docker ECR). You can use the same registry named **dsml3850**. 
 
 ```
-aws ecr get-login-password --region us-west-1 | docker login --username AWS --password-stdin <YOUR-ACCOUNT-ID>.dkr.ecr.us-west-1.amazonaws.com 
-
 docker tag prj01:v1 <YOUR-ACCOUNT-ID>.dkr.ecr.us-west-1.amazonaws.com/dsml3850:prj-01-v1
 
 docker push <YOUR-ACCOUNT-ID>.dkr.ecr.us-west-1.amazonaws.com/dsml3850:prj-01-v1
@@ -59,7 +55,7 @@ In the last part of this project, you will use the Docker image uploaded to ECR 
 
 # Submission 
 
-To get full credit in this assignment you need to push all of the files that you changed to GitHub Classroom. You should leave your app running and provide the public IP of your deployment below: 
+To get full credit in this assignment you need to push all of the files that you created to GitHub Classroom. You should leave your app running and provide the public IP of your deployment below: 
 
 ```
 Public IP: ...
