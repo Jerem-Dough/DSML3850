@@ -13,7 +13,6 @@ variable "user_name" {
   default = "prj-01-user"
 }
 
-// TODO: add your initials suffix for uniqueness 
 variable "bucket_name" {
   default = "prj-01-bucket-jd"
 }
