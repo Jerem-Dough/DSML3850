@@ -21,7 +21,10 @@ Designed and deployed a 3-tier AWS cloud architecture with class, integrating a 
 - **Solo Web Application Deployment on AWS (Project1):**  
 Deployed a Flask web app in Docker containers using AWS ECS, Terraform, and S3 for secure file storage. Built and pushed Docker images to ECR. Automated infrastructure provisioning, load balancing, and deployment. Built all infrastructure and config files from the ground up.
 
+- **Path-Based Load Balancing on AWS ECS (Homework07):**  
+Built a path-based load-balancer using Terraform, ECS, and ALB. Deployed two ECS services with distinct target groups and routed traffic based on URL paths (/a and /b). Docker images were pushed to ECR, and Terraform automated all infrastructure setups.
+
 - **More Projects to Come:**
-Last update - 3/18/2025
+Last update - 3/27/2025
   
 Each project demonstrates core cloud computing concepts, focusing on infrastructure as code, cloud automation, and scalable application deployment.
