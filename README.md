@@ -21,10 +21,16 @@ Designed and deployed a 3-tier AWS cloud architecture with class, integrating a 
 - **Solo Web Application Deployment on AWS (Project1):**  
 Deployed a Flask web app in Docker containers using AWS ECS, Terraform, and S3 for secure file storage. Built and pushed Docker images to ECR. Automated infrastructure provisioning, load balancing, and deployment. Built all infrastructure and config files from the ground up.
 
-- **Path-Based Load Balancing on AWS ECS (Homework07):**  
+- **Lambda-Based CSV Summarization on S3 (Homework07):**  
 Built a path-based load-balancer using Terraform, ECS, and ALB. Deployed two ECS services with distinct target groups and routed traffic based on URL paths (/a and /b). Docker images were pushed to ECR, and Terraform automated all infrastructure setups.
 
+- **Path-Based Load Balancing on AWS ECS (Homework08):**  
+Developed a Python-based AWS Lambda function that is triggered by CSV uploads to an S3 bucket. The function parses the daily sales data, computes the total amount, and uploads a summary CSV file to a separate S3 bucket. Packaged the Lambda using Docker with the public.ecr.aws/lambda/python base image and deployed using Terraform.
+
+- **Lambda-Backed Authentication API (Homework09):**  
+Created a serverless API using AWS Lambda, API Gateway, and DynamoDB. The Lambda function authenticates access requests based on randomly generated API keys stored in a DynamoDB table. Packaged the function in Docker and automated infrastructure provisioning and deployment with Terraform.
+
 - **More Projects to Come:**
-Last update - 3/27/2025
+Last update - 4/16/2025
   
 Each project demonstrates core cloud computing concepts, focusing on infrastructure as code, cloud automation, and scalable application deployment.
