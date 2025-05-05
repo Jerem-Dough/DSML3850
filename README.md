@@ -34,6 +34,6 @@ Created a serverless API using AWS Lambda, API Gateway, and DynamoDB. The Lambda
 Built a secure serverless API using AWS Lambda, API Gateway, and DynamoDB to query cybersecurity incident data. Provisioned infrastructure with Terraform, authenticated access via API keys, and deployed the Lambda function in Docker. Highlights include serverless design, secure access control, and cloud automation.
 
 - **More Projects to Come:**
-Last update - 4/16/2025
+Last update - 5/5/2025
   
 Each project demonstrates core cloud computing concepts, focusing on infrastructure as code, cloud automation, and scalable application deployment.
