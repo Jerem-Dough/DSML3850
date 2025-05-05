@@ -30,6 +30,9 @@ Developed a Python-based AWS Lambda function that is triggered by CSV uploads to
 - **Lambda-Backed Authentication API (Homework09):**  
 Created a serverless API using AWS Lambda, API Gateway, and DynamoDB. The Lambda function authenticates access requests based on randomly generated API keys stored in a DynamoDB table. Packaged the function in Docker and automated infrastructure provisioning and deployment with Terraform.
 
+- **Serverless Cybersecurity Incident API (Project2):**  
+Built a secure serverless API using AWS Lambda, API Gateway, and DynamoDB to query cybersecurity incident data. Provisioned infrastructure with Terraform, authenticated access via API keys, and deployed the Lambda function in Docker. Highlights include serverless design, secure access control, and cloud automation.
+
 - **More Projects to Come:**
 Last update - 4/16/2025
   

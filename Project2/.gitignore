@@ -1,0 +1,33 @@
+# === Terraform ===
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*.backup
+.terraform.lock.hcl
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+
+# === Docker ===
+*.tar
+*.img
+*.log
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+*.swp
+*~
+
+# === OS/Editor junk ===
+.DS_Store
+Thumbs.db
