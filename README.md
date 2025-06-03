@@ -33,7 +33,7 @@ Created a serverless API using AWS Lambda, API Gateway, and DynamoDB. The Lambda
 - **Serverless Cybersecurity Incident API (Project2):**  
 Built a secure serverless API using AWS Lambda, API Gateway, and DynamoDB to query cybersecurity incident data. Provisioned infrastructure with Terraform, authenticated access via API keys, and deployed the Lambda function in Docker. Highlights include serverless design, secure access control, and cloud automation.
 
-- **More Projects to Come:**
-Last update - 5/5/2025
+- **Heart Attack Risk Prediction Web App (Project3):**  
+Built a full-stack web app to predict heart attack risk using a logistic regression model trained in SageMaker. Terraform was used to provision an S3 bucket for the dataset and a SageMaker domain for training. A PostgreSQL RDS instance was created for user authentication, and the app was containerized with Docker, pushed to ECR, and deployed on ECS using Terraform.
   
 Each project demonstrates core cloud computing concepts, focusing on infrastructure as code, cloud automation, and scalable application deployment.
